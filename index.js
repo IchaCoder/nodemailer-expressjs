@@ -40,6 +40,10 @@ app.post("/api/send-email", (req, res) => {
     });
 });
 
+app.get("/", (req, res) => {
+  res.send("SEND EMAIL API");
+});
+
 app.listen(PORT, () => {
   console.log(`Server is running on port ${PORT}`);
 });
