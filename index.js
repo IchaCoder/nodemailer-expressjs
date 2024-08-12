@@ -15,7 +15,7 @@ app.use(cors());
 const mailOptions = {
   from: "eyeboah114@st.ug.edu.gh",
   to: "ichabordyeboah247@gmail.com",
-  subject: "Test Email",
+  subject: "CMS Notification",
   html: "<h1>Message sent</h1>",
 };
 
