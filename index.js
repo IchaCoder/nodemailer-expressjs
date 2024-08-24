@@ -13,7 +13,7 @@ app.use(express.json());
 app.use(cors());
 
 const mailOptions = {
-  from: "eyeboah114@st.ug.edu.gh",
+  from: "CMS@mail.com",
   to: "ichabordyeboah247@gmail.com",
   subject: "CMS Notification",
   html: "<h1>Message sent</h1>",
